@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    background-image: url(gambar/Group_18__1_-removebg-preview.png);
+    width: 90px;
+    height: 70px;
+    background-size:cover;
+    margin-left: 20px;
+}
+
+.mycanteen{
+    background-image: url(gambar/My\ Canteen.png);
+    width: 150px;
+    height: 30px;
+    background-size:cover;
+    margin-top: 10px;
+}
+
+
+#kategori{
+    text-align: end;
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #1E1E1E;
+    color: #ffffff;
+    border: none;
+    margin-left: 930px;
+    margin-top: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* #kategori img{
+    position: relative;
+    top: 5px;
+} */
+
+/* nav .tombolkategori{
+    position: absolute;
+    top: calc(80%);
+    right: 560px;
+    width: 200px;
+    min-height: 100px;
+    background-color: aqua;
+    visibility: hidden;
+    opacity: 0;
+}
+
+nav .tombolkategori.active{
+    opacity: 1;
+    visibility: visible;
+} */
+
+
+#cari{
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding-left: 40px;
+    font-size: 17px;
+}
+
+.gmbrcari{
+    width: 20px;
+    position: relative;
+    left: -337px;
+    top: 5px;
+}
+
+.keranjang{
+    background-image: url(gambar/trolley-cart\ 1.png);
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+}
+
+.notif{
+    background-image: url(gambar/notif.png);
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.kepala{
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+nav .profile{
+    position: relative;
+    cursor: pointer;
+}
+
+nav .tombolprofile{
+    text-align: start;
+    position: absolute;
+    top: calc(80%);
+    right: 20px;
+    width: 240px;
+    min-height: 100px;
+    background-color: whitesmoke;
+    visibility: hidden;
+    opacity: 0;
+    border: 2px solid rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    box-shadow: 7px 15px 15px -3px rgba(0,0,0,0.2);
+
+}
+
+nav .tombolprofile.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+nav .tombolprofile p{
+    margin-top: -10px;
+}
+
+.list{
+    margin-left: -20px;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: -20px;
+}
+
+.list div{
+    display: flex;
+}
+
+.list div p{
+    margin-top: -2px;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.list img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.signout{
+    width: 10px;
+    height: 10px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+
+.container{
+    border: 1px solid black;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.detail1{
+    display: flex;
+    font-size: 23px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 20px;
+}
+.detail2{
+    display: flex;
+    font-size: 23px;
+    position: relative;
+    margin-left: 20px;
+
+}
+hr{
+    width: 93%;
+}
+
+.nama1{
+    position: absolute;
+    left: 80px;
+    margin-top: -5px;
+
+}
+
+.jumlah1{
+    position: relative;
+    left: 20px;
+    margin-top: -5px;
+}
+
+.harga1{
+    position: absolute;
+    right: 30px;
+    margin-top: -5px;
+}
+
+.nama2{
+    position: absolute;
+    left: 80px;
+    
+}
+
+.jumlah2{
+    position: relative;
+    left: 30px;
+}
+
+.harga2{
+    position: absolute;
+    right: 25px;
+}
+
+.total1{
+    display: flex;
+    
+    position: relative;
+    margin-top: -20px;
+}
+
+.total2{
+    position: relative;
+    left: 45px;
+    font-size: 30px;
+}
+
+.nominal{
+    position: absolute;
+    right: 25px;
+    font-size: 27px;
+    margin-top: 33px;
+}

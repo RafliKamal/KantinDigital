@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    grid-template-columns: 16% 84%;
+}
+
+.side{
+    background-color: #1E1E1E;
+    height: 100dvh;
+    
+}
+
+.logo{
+    background-image: url(gambar/Group_18__1_-removebg-preview.png);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.side a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#user{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.signout{
+    position: absolute;
+    bottom: 20px;
+}
+
+.inti{
+    padding-inline: 30px;
+}
+
+.inti .title{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.tambahdata{
+    margin-top: 30px;
+    text-align: left;
+}
+.table{
+    margin-top: 20px;
+   
+}

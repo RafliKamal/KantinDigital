@@ -1,0 +1,152 @@
+body{
+    display: grid;
+    grid-template-columns: 16% 84%;
+}
+
+.side{
+    background-color: #1E1E1E;
+    height: 100dvh;
+    
+}
+
+.logo{
+    background-image: url(gambar/Group_18__1_-removebg-preview.png);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.side a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#user{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.signout{
+    position: absolute;
+    bottom: 20px;
+}
+
+.inti{
+    padding-inline: 30px;
+}
+
+.inti .title{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.tambahdata{
+    margin-top: 30px;
+    text-align: left;
+}
+.table{
+    margin-top: 20px;
+   
+}
+
+.flex{
+    display: flex;
+}
+.flex p{
+    margin-left: 750px;
+    font-size: 24px;
+}
+.rekomendasi{
+    width: 99%;
+    height: auto;
+    /* background-color: aqua; */
+    margin-inline: auto;
+    font-size: 19px;
+    
+}
+
+.form{
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+.menu{
+    height: auto;
+    /* background-color: rgb(200, 255, 0); */
+    margin-inline: auto;
+    margin-top: -10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-weight: 400;
+}
+.kotak{
+    width: 290px;
+    height: 270px;
+    /* background-color: blue; */
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 180px 20px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    box-shadow: 5px 6px 19px -2px rgba(0,0,0,0.38);
+}
+
+.kotak div img{
+    border-radius: 10px 10px 0 0;
+}
+
+.namamenu{
+    margin-top: 5px;
+    margin-left: 10px; 
+}
+
+.harga{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.harga img{
+    margin-top: 15px;
+}
+
+.jumlah{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jumlah p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.kosong
+{   
+    margin-top: 400px;
+    text-align: center;
+}
+
+.total
+{
+    width: 98%;
+    height: auto;
+    margin-inline: auto;
+    font-size: 20px;
+}
+
+.total small{
+    font-size: 25px;
+    margin-left: 7px;
+}
